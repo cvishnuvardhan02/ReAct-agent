@@ -134,10 +134,9 @@ For **current, recent, unfamiliar, or factual questions**, the agent is instruct
 ```text
 ReAct-Agent/
 │
-├── app.py                 # Main Streamlit application
+├── react_agent.py         # Main Streamlit application
 ├── requirements.txt       # Python dependencies
 ├── .env                   # Environment variables
-├── .gitignore             # Git ignored files
 └── README.md              # Project documentation
 ```
 
@@ -173,7 +172,7 @@ GOOGLE_API_KEY=your_google_gemini_api_key
 ### 4️⃣ Run the Application
 
 ```bash
-streamlit run app.py
+python -m streamlit run react_agent.py
 ```
 
 The application will start locally and can be accessed through the URL provided by Streamlit.
